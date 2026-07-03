@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Info</title>
+
+    <style>
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 24px;
+  border: 1px solid #ccc;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px 10px;
+  text-align: center;
+}
+
+.result-table {
+  width: 70%;
+  margin: 0 auto 20px;
+}
+
+.signature-row td {
+  height: 70px;
+  vertical-align: bottom;
+}
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Govt Pg College</h1>
+
+        <table>
+            <tr>
+                <th colspan="4">Student Information</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Roll Number</th>
+                <th>Course</th>
+                <th>Semester</th>
+            </tr>
+            <tr>
+                <td>Vicky</td>
+                <td>36</td>
+                <td>BCA</td>
+                <td>5th</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <th colspan="6">Marks Information</th>
+            </tr>
+            <tr>
+                <th>Subject Code</th>
+                <th>Subject Name</th>
+                <th>Internal Marks</th>
+                <th>External Marks</th>
+                <th>Total Marks</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>DBMS</td>
+                <td>18</td>
+                <td>62</td>
+                <td>80</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Java</td>
+                <td>17</td>
+                <td>58</td>
+                <td>75</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Computer Networks</td>
+                <td>19</td>
+                <td>64</td>
+                <td>83</td>
+                <td>A</td>
+            </tr>
+        </table>
+
+        <table class="result-table">
+            <tr>
+                <th colspan="3">Result Summary</th>
+            </tr>
+            <tr>
+                <th rowspan="3">Summary</th>
+                <th>Total Marks</th>
+                <td>238</td>
+            </tr>
+            <tr>
+                <th>Percentage</th>
+                <td>79.33%</td>
+            </tr>
+            <tr>
+                <th>Result</th>
+                <td>Pass</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <th colspan="3">Signature</th>
+            </tr>
+            <tr>
+                <td>Class Teacher</td>
+                <td>HOD</td>
+                <td>Principal</td>
+            </tr>
+            <tr class="signature-row">
+                <td>________________</td>
+                <td>________________</td>
+                <td>________________</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
